@@ -6,6 +6,16 @@
 //  Copyright © 2020 Lucas Dahl. All rights reserved.
 //
 
+// MARK: - Task
+
+/*
+ Write a program that converts user input in Celsius to Fahrenheit temperature. The formula is
+ F= 9/5 * C +32
+ F is the Fahrenheit temperature, and C is the Celsius temperature. Keep one digit of precision.
+ */
+
+// This is a program to conver Celsius to Fahrenheit.
+
 // Header
 #include <iostream>
 

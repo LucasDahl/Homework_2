@@ -6,6 +6,22 @@
 //  Copyright © 2020 Lucas Dahl. All rights reserved.
 //
 
+// MARK: - Task
+
+/*
+ A cookie recipe calls for the following ingredients:
+
+ 5 cups of sugar
+ 1 cup of butter
+ 75 cups of flour
+ The recipe produces 48 cookies with this amount of ingredients.
+
+ Write a program that asks the user how many cookies he or she wants to make, and then displays the number of cups of each ingredient needed for the specified number of cookies. Use fixed-point notation with two decimal places of precision.
+ */
+
+
+// This program is to adjust the amount of ingredients need for x amount of cookies.
+
 // Header
 //#include <iostream>
 //#include <iomanip>

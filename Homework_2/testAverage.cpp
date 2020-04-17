@@ -6,6 +6,11 @@
 //  Copyright © 2020 Lucas Dahl. All rights reserved.
 //
 
+// MARK: - Task
+/*
+Write a program that asks for five test scores. The program should calculate the average test score and display it. The number displayed should be formatted in fixed-point notation, with one decimal place of precision.
+*/
+
 // This program is to take five test scores and calculate the average score
 
 
