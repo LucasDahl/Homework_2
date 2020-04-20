@@ -34,14 +34,76 @@
      Interest Paid:                                    $     1957.15
  */
 
-//// Header
-//#include <iostream>
-//#include <string>
-//#include <iomanip>
+// This program is useto calulate monthly payments.
 
+// Header
+//#include <iostream>
+//#include <iomanip>
+//#include <cmath>
 //using namespace std;
 //
 //int main() {
-//   // Used to exit program
+//    
+//    // Properties
+//    
+//    // Constant
+//    const int ONE = 1, HUNDRED = 100, NUMBER_OF_MONTHS = 12;
+//    
+//    // Variables
+//    int N;
+//    float Rate, L, payment, amountPaidBack, interestPaid;
+//    
+//    // Ask the user for required data
+//    cout << endl;
+//    cout << "What is interest rate of the loan? %";
+//    cin >> Rate;
+//    cout << "What is the Amount of the loan? ";
+//    cin >> L;
+//    cout << "Number of payments? ";
+//    cin >> N;
+//    
+//    // Calculations
+//    Rate /= NUMBER_OF_MONTHS;
+//
+//    Rate /= HUNDRED;
+//    
+//    payment = ((Rate) * pow(ONE + (Rate), N) / (pow(ONE + (Rate), N) - ONE)) * L;
+//    
+//    Rate *= HUNDRED;
+//    
+//    amountPaidBack = N * payment;
+//    
+//    interestPaid    = (N * payment) - L;
+//    
+//    // Display the data and format it.
+//    cout << setprecision(2) << fixed << right << endl;
+//    
+//    // Loan
+//    cout << "Loan Amount:           $";
+//    cout << setw(10) << L << endl;
+//    
+//    // Monthly intrest
+//    cout << "Monthly Interest Rate: ";
+//    cout << setw(10) << Rate << '%' << endl;
+//    
+//    // Number of payments
+//    cout << "Number of Payments:     ";
+//    cout << setw(10) << N     << endl;
+//    
+//    // Monthly payment
+//    cout << "Monthly Payment:       $";
+//    cout << setw(10) << payment << endl;
+//    
+//    // Amount paid back
+//    cout << "Amount Paid Back:      $";
+//    cout << setw(10) << amountPaidBack << endl;
+//    
+//    // Intrest paid
+//    cout << "Interest Paid:         $";
+//    cout << setw(10) << interestPaid;
+//    cout << endl << endl;
+//    
+//    
+//    // Used to end the program
 //    return 0;
 //}
