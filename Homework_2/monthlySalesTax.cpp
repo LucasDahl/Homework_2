@@ -36,45 +36,45 @@
 // This program is used calculate monthly sales tax.
 
 // Header
-//#include <iostream>
-//#include <iomanip>
-//
-//using namespace std;
-//
-//int main() {
-//    
-//    // Properties
-//    const float STATE_SALES_TAX  = 0.04, COUNTY_SALES_TAX = 0.02, SALES_TAX = 0.06;
-//    float S, T, totalStateTax, totalCountyTax, totalSalesTax;
-//    string month;
-//    int year;
-//
-//    // Ask user for the needed data
-//    cout << endl;
-//    cout << "Enter the month to receive the report for: ";
-//    cin >> month;
-//    cout << "Enter the year: ";
-//    cin >> year;
-//    cout << "Total amount collected for the month of " << month << ": ";
-//    cin >> T;
-//
-//    // Csalculations
-//    S = T / 1.06;
-//    totalStateTax = S * STATE_SALES_TAX;
-//    totalCountyTax = S * COUNTY_SALES_TAX;
-//    totalSalesTax  = S * SALES_TAX;
-//
-//    // Display Calculations
-//    cout << setprecision(2) << fixed << right << endl;
-//    cout << "Month: " << month << endl;
-//    cout << "Total Collected:    $" << setw(10) << T << endl;
-//    cout << "Sales:              $" << setw(10) << S << endl;
-//    cout << "County Sales Tax:   $" << setw(10) << totalCountyTax << endl;
-//    cout << "State Sales Tax:    $" << setw(10) << totalStateTax << endl;
-//    cout << "Total Tales Tax:    $" << setw(10) << totalSalesTax << endl;
-//    cout << endl;
-//
-//    
-//   // Used to exit program
-//    return 0;
-//}
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+    
+    // Properties
+    const float STATE_SALES_TAX  = 0.04, COUNTY_SALES_TAX = 0.02, SALES_TAX = 0.06;
+    float S, T, totalStateTax, totalCountyTax, totalSalesTax;
+    string month;
+    int year;
+
+    // Ask user for the needed data
+    cout << endl;
+    cout << "Enter the month to receive the report for: ";
+    cin >> month;
+    cout << "Enter the year: ";
+    cin >> year;
+    cout << "Total amount collected for the month of " << month << ": ";
+    cin >> T;
+
+    // Csalculations
+    S = T / 1.06;
+    totalStateTax = S * STATE_SALES_TAX;
+    totalCountyTax = S * COUNTY_SALES_TAX;
+    totalSalesTax  = S * SALES_TAX;
+
+    // Display Calculations
+    cout << setprecision(2) << fixed << right << endl;
+    cout << "Month: " << month << endl;
+    cout << "Total Collected:    $" << setw(10) << T << endl;
+    cout << "Sales:              $" << setw(10) << S << endl;
+    cout << "County Sales Tax:   $" << setw(10) << totalCountyTax << endl;
+    cout << "State Sales Tax:    $" << setw(10) << totalStateTax << endl;
+    cout << "Total Tales Tax:    $" << setw(10) << totalSalesTax << endl;
+    cout << endl;
+
+    
+   // Used to exit program
+    return 0;
+}
