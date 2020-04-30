@@ -18,10 +18,11 @@
 
 // Header
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
-int tempConvert(float temp) {
+float tempConvert(float temp) {
     
     // temp properties
     float f;
@@ -45,6 +46,7 @@ int main() {
     fahrenheit = tempConvert(celsius);
     
     // Display the message and set the precision
+    cout << setprecision(2) << fixed;
     cout << "If the Celsius temperature is " << celsius << "degrees," << endl;
     cout << "Then it is " << fahrenheit << " degrees Farenheit." << endl;
     
